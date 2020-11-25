@@ -6,7 +6,8 @@ CREATE PROCEDURE [dbo].[s_user_management]
 	@section varchar(50)='',
 	@usrcomid varchar(50)='',
 	@usrid varchar(50)='',
-	@sessionid varchar(50)=''
+	@sessionid varchar(50)='',
+	@sessionid1 varchar(50)=''
 
 AS
 BEGIN

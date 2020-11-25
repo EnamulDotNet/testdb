@@ -7,6 +7,7 @@ CREATE PROCEDURE [dbo].[s_user_management]
 	@usrcomid varchar(50)='',
 	@usrid varchar(50)='',
 	@sessionid varchar(50)=''
+
 AS
 BEGIN
 SET STATISTICS TIME OFF
